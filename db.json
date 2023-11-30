@@ -1,0 +1,38 @@
+{
+  "posts": [
+    {
+      "title": "Jafer",
+      "author": "Aden",
+      "id": 4
+    },
+    {
+      "title": "black",
+      "author": "friday",
+      "id": 5
+    },
+    {
+      "title": "Arman",
+      "author": "Khan",
+      "id": 6
+    },
+    {
+      "title": "olld",
+      "author": "neww",
+      "id": 7
+    },
+    {
+      "title": "development",
+      "author": "java",
+      "id": 8
+    },
+    {
+      "title": "javascript",
+      "author": "PHP",
+      "id": 9
+    }
+  ],
+  "comments": [],
+  "profile": {
+    "name": "typicode"
+  }
+}
