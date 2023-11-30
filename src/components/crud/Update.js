@@ -59,8 +59,13 @@ const Update = () => {
   };
 
   return (
+    <div>
+       
+    
     <div className="create-container">
+    
       <form className="create-form" onSubmit={handleSubmit}>
+      <div><h3>Update Form</h3></div>
         <label>
           Title
           <input
@@ -83,6 +88,7 @@ const Update = () => {
 
         <button type="submit">Update</button>
       </form>
+    </div>
     </div>
   );
 };
