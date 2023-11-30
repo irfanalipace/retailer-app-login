@@ -1,6 +1,6 @@
 // Count.js
 import React from "react";
-import { useLocation } from "react-router-dom";
+import { useLocation, Link } from "react-router-dom";
 
 const Count = () => {
   const location = useLocation();
@@ -9,6 +9,8 @@ const Count = () => {
   return (
     <div>
       <h1>Total Count: {totalCount}</h1>
+
+      <Link to='/' style={{marginLeft:'22px'}}>Back</Link>
     </div>
   );
 };
