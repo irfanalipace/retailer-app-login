@@ -58,7 +58,7 @@ const View = () => {
           <button>Total Contact</button>
         </Link>
       </div>
-<div style={{textAlign:'center'}}> <h3>View Data</h3></div>
+    <div style={{textAlign:'center'}}> <h3>View Data</h3></div>
       {/* <br></br>
       {totalCount} */}
       <div
