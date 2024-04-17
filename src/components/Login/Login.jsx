@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import { Container, Row, Col, Form, Button } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './Login.css'; // custom CSS for background
-import { HiOutlineMail } from 'react-icons/hi'; // Import email icon
+import './Login.css'; 
+import { HiOutlineMail } from 'react-icons/hi'; 
 import { AiOutlineEye, AiOutlineEyeInvisible } from 'react-icons/ai';
 import retailer from '../../assets/images/retailer-images.jpg';
 import logo from '../../assets/images/logo-final.png';
