@@ -1,0 +1,146 @@
+.login-container {
+  background: linear-gradient(to right, #ffffff 50%, #F18418 50%);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.login-container .container {
+max-width: 70%;
+}
+.login-heading {
+  text-align: center;
+  padding-bottom: 15px;
+}
+.login-heading h2{
+  font-size: 22px;
+  font-weight: 600;
+}
+.input-group-text {
+  background-color: transparent !important;
+  border: none;
+  margin: 1px;
+  font-size: 16px;
+}
+
+.login-heading hr {
+  border: none; 
+  border-top: 2px solid #F18418; 
+  width: calc(100% - 212px); 
+  margin: 0 auto; 
+  margin-top: 0px; 
+  font-weight: bold;
+}
+
+.login-bg {
+  background-color: #fff;
+  height: 100%;
+  padding: 25px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.login-form {
+  margin-top: 20px; /* Adjust the margin to separate the logo and form */
+}
+
+.input-group {
+  position: relative;
+  width: 100%;
+  margin-top: 22px;
+  margin-bottom: 22px;
+}
+
+.input-group-prepend,
+.input-group-append {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  height: 100%;
+}
+
+.input-group-prepend {
+  left: 0;
+}
+
+.input-group-append {
+  right: 0;
+}
+
+.input-group-text {
+  background-color: #f4f4f4;
+  border: none;
+}
+
+.form-control {
+  border: none;
+  border-radius: 0;
+  border-bottom: 1px solid #c9c3c3 !important;
+}
+
+.login-button {
+  border: none;
+  width: 90%;
+  margin-top: 15px;
+  background: #F18418;
+}
+.login-button:hover {
+background: #F18418;
+}
+.forgot-password {
+  float: right;
+}
+
+.login-logo {
+  display: block;
+  margin: 0 auto; /* Centers the logo horizontally */
+  width: 112px; /* Adjust the width as needed */
+  height: auto; /* Keeps the aspect ratio */
+}
+
+.foget-password-link {
+  margin-top: 14px;
+  display: flex;
+  justify-content: center;
+}
+.foget-password-link a{
+text-decoration: none;
+color: #49889A
+
+
+;
+}
+.other-image {
+  /* display: flex; */
+  position: absolute;
+  text-align: center;
+  top: 200px;
+  left: 100px;
+  width: 30%;
+  height: 30%;
+  z-index: 12;
+  opacity: 0.5;
+  /* justify-content: center; */
+}
+@media screen and (max-width:1000px) and (min-width:600px) {
+.other-image {
+  /* display: flex; */
+  position: absolute;
+  text-align: center;
+  top: 200px;
+  left: 26px;
+  width: 30%;
+  height: 30%;
+  z-index: 12;
+  opacity: 0.5;
+  /* justify-content: center; */
+} .col-custom {
+  flex: 0 0 50%; /* Adjust width to 50% */
+  max-width: 56%; /* Adjust width to 50% */
+}
+}
+@media screen and (max-width:580px) {
+  .login-container .container {
+    max-width: 100%;
+}
+}
