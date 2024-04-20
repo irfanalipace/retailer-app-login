@@ -16,7 +16,9 @@ const Login = () => {
   };
 
   return (
-    <div className="login-container">
+    <section className='container-body'>
+  
+  <div className="login-container">
       <Container>
         <Row className="justify-content-center">
           <Col md={9} className='col-custom flex  '>
@@ -72,6 +74,9 @@ const Login = () => {
         </Row>
       </Container>
     </div>
+ 
+    </section>
+    
   );
 };
 
