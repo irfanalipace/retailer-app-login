@@ -126,7 +126,7 @@ color: #49889A
 .other-image {
   position: absolute;
   top: 50%;
-  left: 26%;
+  left: 0%;
   transform: translate(-50%, -50%) rotate(180deg);
   text-align: center;
   z-index: 12;
