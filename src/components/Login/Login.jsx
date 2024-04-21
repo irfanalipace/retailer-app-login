@@ -21,7 +21,7 @@ const Login = () => {
   <div className="login-container">
       <Container>
         <Row className="justify-content-center">
-          <Col md={9} className='col-custom flex  '>
+          <Col md={7} className='col-custom flex  '>
             <div className="login-bg">
               <img src={retailer} alt="Other Image" className="other-image" />
               <img src={logo} alt="Logo" className="login-logo" />
